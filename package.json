@@ -1,0 +1,9 @@
+{
+  "name": "tone-daily-english-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-only, dependency-free English learning prototype",
+  "scripts": {"start": "node server.mjs", "test": "node --test tests/*.test.mjs", "check": "node --check app.js && node --check audio.js && node --check progress.js && npm test"},
+  "engines": {"node": ">=20"}
+}
